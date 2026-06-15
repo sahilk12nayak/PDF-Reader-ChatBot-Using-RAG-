@@ -33,16 +33,16 @@ rag_chatbot/
 - Streamlit-based minimal web UI
 
 
-## Steps:
+## Steps (For Linux):
 ```
-1. Create virtual environment commands
+1. Create virtual environment
    python3 -m venv myenv
    source myenv/bin/activate
-2. Install dependencies command
+2. Install dependencies
    python install -r requirement.txt
 3. Add your document
    Put your .pdf files inside the docs/ folder.
-4. Ingest documents command
+4. Ingest documents
    python ingest.py
 5. Set your LLM API key
    export GOOGLE_API_KEY="your-gemini-api-key"
